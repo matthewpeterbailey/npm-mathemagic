@@ -4,7 +4,7 @@
 	"description": "A simple mathematics library",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "mocha -r esm 'tests/**/*.js'"
 	},
 	"repository": {
 		"type": "git",
@@ -18,5 +18,11 @@
 	"bugs": {
 		"url": "https://github.com/matthewpeterbailey/npm-mathemagic/issues"
 	},
-	"homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme"
+	"homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme",
+	"devDependencies": {
+		"mocha": "^8.0.1"
+	},
+	"dependencies": {
+		"esm": "^3.2.25"
+	}
 }
