@@ -6,9 +6,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/matthewpeterbailey/npm-mathemagic.git"
+	},
 	"keywords": [
 		"Mathematics"
 	],
 	"author": "Matthew Bailey <mpb1992@outlook.com>",
-	"license": "ISC"
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/matthewpeterbailey/npm-mathemagic/issues"
+	},
+	"homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme"
 }
