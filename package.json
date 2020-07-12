@@ -2,7 +2,7 @@
 	"name": "mathemagic",
 	"version": "1.0.4",
 	"description": "A simple mathematics library",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"test": "mocha -r esm 'tests/**/*.js'",
 		"build": "webpack --mode production",
