@@ -1,32 +1,37 @@
 {
-	"name": "mathemagic",
-	"version": "1.0.6",
-	"description": "A simple mathematics library",
-	"main": "dist/index.js",
-	"scripts": {
-		"test": "mocha -r esm 'tests/**/*.js'",
-		"build": "webpack --mode production",
-		"prepublish": "npm run build"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/matthewpeterbailey/npm-mathemagic.git"
-	},
-	"keywords": [
-		"Mathematics"
-	],
-	"author": "Matthew Bailey <mpb1992@outlook.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/matthewpeterbailey/npm-mathemagic/issues"
-	},
-	"homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme",
-	"devDependencies": {
-		"@babel/core": "^7.10.4",
-		"babel-loader": "^8.1.0",
-		"esm": "^3.2.25",
-		"mocha": "^8.0.1",
-		"webpack": "^4.43.0",
-		"webpack-cli": "^3.3.12"
-	}
+  "name": "mathemagic",
+  "version": "1.0.6",
+  "description": "A simple mathematics library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewpeterbailey/npm-mathemagic.git"
+  },
+  "keywords": [
+    "Mathematics"
+  ],
+  "author": "Matthew Bailey <mpb1992@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewpeterbailey/npm-mathemagic/issues"
+  },
+  "homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.1",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.6"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
