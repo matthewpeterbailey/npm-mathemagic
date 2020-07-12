@@ -20,9 +20,7 @@
 	},
 	"homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme",
 	"devDependencies": {
-		"mocha": "^8.0.1"
-	},
-	"dependencies": {
+		"mocha": "^8.0.1",
 		"esm": "^3.2.25"
 	}
 }
