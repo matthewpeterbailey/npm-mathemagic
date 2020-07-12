@@ -1,5 +1,5 @@
 import { equal } from "assert";
-import { perimeterFromRadius } from "../../../index";
+import { perimeterFromRadius } from "../../../src/index";
 
 describe("Perimeter of circle", () => {
 	it("should return correct positive length, even for negative input", () => {

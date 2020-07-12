@@ -1,5 +1,5 @@
 import { equal } from "assert";
-import { areaFromRadius } from "../../../index";
+import { areaFromRadius } from "../../../src/index";
 
 areaFromRadius(3);
 describe("Area of circle", () => {

@@ -1,4 +1,4 @@
-import { max } from "../../index";
+import { max } from "../../src/index";
 import { equal } from "assert";
 
 describe("Max", () => {

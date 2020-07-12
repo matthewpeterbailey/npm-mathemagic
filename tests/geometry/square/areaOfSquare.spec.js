@@ -1,5 +1,5 @@
 import { equal } from "assert";
-import { areaOfSquare, square } from "../../../index";
+import { areaOfSquare, square } from "../../../src/index";
 
 describe("Area of square", () => {
 	it("should return correct positive length, even for negative input", () => {

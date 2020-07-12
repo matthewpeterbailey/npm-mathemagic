@@ -1,4 +1,4 @@
-import { min } from "../../index";
+import { min } from "../../src/index";
 import { equal } from "assert";
 
 describe("Min", () => {
