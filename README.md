@@ -1,6 +1,6 @@
-## Mathemagic
+[![Mathemagic Header](https://github.com/matthewpeterbailey/mathemagic/blob/master/Images/mathemagic.png)](https://github.com/matthewpeterbailey/mathemagic/)
 
-[![Version](https://img.shields.io/npm/v/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Downloads](https://img.shields.io/npm/dm/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/matthewpeterbailey/npm-mathemagic/graphs/commit-activity) ![NPM License](https://img.shields.io/npm/l/mathemagic.svg)
+[![Version](https://img.shields.io/npm/v/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Downloads](https://img.shields.io/npm/dm/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/matthewpeterbailey/mathemagic/graphs/commit-activity) ![NPM License](https://img.shields.io/npm/l/mathemagic.svg)
 
 **mathemagic** is a mathematics and statistic package which comes with a range of built-in functions and constants to help you perform calculations using fully tested methods.
 
@@ -33,7 +33,7 @@ import { mathemagic } from 'mathemagic'
 Clone prject from github into a local **mathemagic** project folder:
 
 ```
-git clone https://github.com/matthewpeterbailey/npm-mathemagic.git
+git clone https://github.com/matthewpeterbailey/mathemagic.git
 ```
 
 Navigate to the your local repository, install project dependencies and build:

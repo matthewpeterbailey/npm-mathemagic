@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matthewpeterbailey/npm-mathemagic.git"
+    "url": "git+https://github.com/matthewpeterbailey/mathemagic.git"
   },
   "keywords": [
     "Mathematics"
@@ -25,9 +25,9 @@
   "author": "Matthew Bailey <mpb1992@outlook.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matthewpeterbailey/npm-mathemagic/issues"
+    "url": "https://github.com/matthewpeterbailey/mathemagic/issues"
   },
-  "homepage": "https://github.com/matthewpeterbailey/npm-mathemagic#readme",
+  "homepage": "https://github.com/matthewpeterbailey/mathemagic#readme",
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "jest": "^26.1.0",
