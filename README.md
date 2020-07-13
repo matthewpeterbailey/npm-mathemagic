@@ -1,4 +1,4 @@
-![Mathemagic](https://github.com/matthewpeterbailey/mathemagic/blob/master/images/mathemagic.png)
+![Mathemagic](https://raw.githubusercontent.com/matthewpeterbailey/mathemagic/master/images/mathemagic.png)
 
 [![Version](https://img.shields.io/npm/v/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Downloads](https://img.shields.io/npm/dm/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/matthewpeterbailey/mathemagic/graphs/commit-activity) ![NPM License](https://img.shields.io/npm/l/mathemagic.svg)
 
