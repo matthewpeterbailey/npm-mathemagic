@@ -1,7 +1,7 @@
 {
   "name": "mathemagic",
   "version": "1.0.8",
-  "description": "A simple mathematics library",
+  "description": "A mathematics and statistic library for Node.js (javascript and typescript)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
