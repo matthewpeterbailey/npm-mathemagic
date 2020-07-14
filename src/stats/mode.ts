@@ -1,4 +1,8 @@
 const mode = (arr: number[]) => {
+  if (arr.length === 0) {
+    throw new Error('Mode requires an array with at least one element');
+  }
+
   let frequency: number[] = []; // array of frequency.
   let maxFreq: number = 0; // holds the max frequency.
   let modes: number[] = [];
