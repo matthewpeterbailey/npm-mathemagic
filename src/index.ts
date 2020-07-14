@@ -12,3 +12,5 @@ export { default as areaOfSquare, default as square } from './geometry/square/ar
 
 // Stats
 export { default as mean } from './stats/mean';
+export { default as median } from './stats/median';
+export { default as mode } from './stats/mode';
