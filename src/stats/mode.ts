@@ -3,26 +3,26 @@ const mode = (arr: number[]) => {
     throw new Error('Mode requires an array with at least one element');
   }
 
-  let frequency: number[] = []; // array of frequency.
+  const frequency: number[] = []; // array of frequency.
   let maxFreq: number = 0; // holds the max frequency.
-  let modes: number[] = [];
+  let modesArray: number[] = [];
 
-  for (var i in arr) {
-    frequency[arr[i]] = (frequency[arr[i]] || 0) + 1; // increment frequency.
+  for (const element of arr) {
+    frequency[element] = (frequency[element] || 0) + 1; // increment frequency.
 
-    if (frequency[arr[i]] > maxFreq) {
-      maxFreq = frequency[arr[i]]; // update max.
-      modes = []; // reset modes array because we have a new maximum
+    if (frequency[element] > maxFreq) {
+      maxFreq = frequency[element]; // update max.
+      modesArray = []; // reset modes array because we have a new maximum
     }
 
-    if (frequency[arr[i]] === maxFreq) {
-      modes.push(arr[i]);
+    if (frequency[element] === maxFreq) {
+      modesArray.push(element);
     }
   }
 
   return {
     frequency: maxFreq,
-    modes: modes,
+    modes: modesArray,
   };
 };
 
