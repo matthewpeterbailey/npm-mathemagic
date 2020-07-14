@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Downloads](https://img.shields.io/npm/dm/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/matthewpeterbailey/mathemagic/graphs/commit-activity) ![NPM License](https://img.shields.io/npm/l/mathemagic.svg)
 
-**mathemagic** is a mathematics and statistic package which comes with a range of built-in functions and constants to help you perform calculations using fully tested methods.
+**mathemagic** is a mathematics and statistic library which comes with a range of built-in functions and constants to help you perform calculations using fully tested methods.
 
 ---
 
