@@ -11,6 +11,9 @@ export { default as perimeterFromRadius } from './geometry/circle/perimeterFromR
 export { default as areaOfSquare, default as square } from './geometry/square/areaOfSquare';
 
 // Stats
+export { default as stats } from './stats/stats';
 export { default as mean } from './stats/mean';
 export { default as median } from './stats/median';
 export { default as mode } from './stats/mode';
+export { default as var, default as variance } from './stats/variance';
+export { default as sd, default as standardDeviation } from './stats/standardDeviation';
