@@ -1,6 +1,6 @@
 const max = (arr: number[]) => {
   if (arr.length === 0) {
-    throw new Error('max() requires an array of numbers');
+    throw new Error('max() requires an array of numbers with at least one element');
   }
 
   let maximum: number = arr[0];
