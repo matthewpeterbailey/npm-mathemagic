@@ -1,8 +1,10 @@
 ![Mathemagic](https://raw.githubusercontent.com/matthewpeterbailey/mathemagic/master/images/mathemagic.png)
 
-[![Version](https://img.shields.io/npm/v/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Downloads](https://img.shields.io/npm/dm/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/matthewpeterbailey/mathemagic/graphs/commit-activity) [![NPM License](https://img.shields.io/npm/l/mathemagic.svg)](https://github.com/matthewpeterbailey/mathemagic/blob/master/LICENSE)
+[![Version](https://img.shields.io/npm/v/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Downloads](https://img.shields.io/npm/dm/mathemagic.svg)](https://www.npmjs.com/package/mathemagic) [![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/matthewpeterbailey/mathemagic/graphs/commit-activity) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/matthewpeterbailey/mathemagic/blob/master/LICENSE)
 
-**mathemagic** is a mathematics and statistic library which comes with a range of built-in functions and constants to help you perform calculations using fully tested methods.
+**mathemagic** is a mathematics and statistic library which comes with a range of built-in functions and constants to help you perform calculations.
+
+[Click here to raise a feature request, report a bug or learn how you can contribute code to this project!](https://github.com/matthewpeterbailey/mathemagic/blob/master/CONTRIBUTING.md)
 
 ---
 
@@ -54,3 +56,11 @@ This project uses the javascript testing framwork **_jest_**. To execute the tes
 npm install
 npm test
 ```
+
+---
+
+### Licence
+
+_Copyright © 2020 Matthew Bailey_
+
+[MIT License](https://github.com/matthewpeterbailey/mathemagic/blob/master/LICENSE)
