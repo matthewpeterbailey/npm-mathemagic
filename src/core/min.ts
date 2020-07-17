@@ -1,6 +1,6 @@
 const min = (arr: number[]): number => {
   if (arr.length === 0) {
-    throw new Error('min() requires an array of numbers');
+    throw new Error('min() requires an array of numbers with at least one element');
   }
 
   let minimum: number = arr[0];
