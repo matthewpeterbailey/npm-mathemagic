@@ -1,3 +1,5 @@
+.npmignore
+lib
 .DS_Store
 .vscode-test
 .vscode
