@@ -1,3 +1,5 @@
+import { Point } from '../../core/point';
+
 const linesIntersect = (line1Start: Point, line1End: Point, line2Start: Point, line2End: Point) => {
   const result: ResultObject = {
     atPoint: {
@@ -50,11 +52,6 @@ interface ResultObject {
   onLine1: boolean;
   onLine2: boolean;
   intersects: boolean;
-}
-
-interface Point {
-  x: number;
-  y: number;
 }
 
 export default linesIntersect;
