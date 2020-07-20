@@ -1,4 +1,9 @@
-const min = (arr: number[]): number => {
+/**
+ * Returns the minimum value in an array of numbers
+ * @param arr Array of numbers
+ */
+
+export const min = (arr: number[]): number => {
   if (arr.length === 0) {
     throw new Error('min() requires an array of numbers with at least one element');
   }
@@ -13,5 +18,3 @@ const min = (arr: number[]): number => {
 
   return minimum;
 };
-
-export default min;
