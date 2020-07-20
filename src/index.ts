@@ -1,16 +1,16 @@
 // Core
-export { default as min } from './core/min';
-export { default as max } from './core/max';
-export { default as sum } from './core/sum';
+export { min } from './core/min';
+export { max } from './core/max';
+export { sum } from './core/sum';
 export { Point } from './core/point';
 export * from './core/constants';
 
 // Geometry - Circle
-export { default as areaFromRadius } from './geometry/circle/areaFromRadius';
-export { default as perimeterFromRadius } from './geometry/circle/perimeterFromRadius';
+export { areaFromRadius } from './geometry/circle/areaFromRadius';
+export { perimeterFromRadius } from './geometry/circle/perimeterFromRadius';
 
 // Geometry - Lines and vertices
-export { default as intersect } from './geometry/linesAndVertices/linesIntersect';
+export { intersect } from './geometry/linesAndVertices/intersect';
 export { distance } from './geometry/linesAndVertices/distance';
 export { squaredDistance } from './geometry/linesAndVertices/squaredDistance';
 export { normalize } from './geometry/linesAndVertices/normalize';
