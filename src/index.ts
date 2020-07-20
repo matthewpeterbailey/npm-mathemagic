@@ -17,7 +17,7 @@ export { normalize } from './geometry/linesAndVertices/normalize';
 export { perpendicular } from './geometry/linesAndVertices/perpendicular';
 
 // Geometry - Square
-export { default as square } from './geometry/square/areaOfSquare';
+export { square } from './geometry/square/square';
 
 // Stats
 export { default as stats } from './stats/stats';
