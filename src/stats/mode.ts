@@ -1,4 +1,9 @@
-const mode = (arr: number[]) => {
+/**
+ * Returns the mode of an array of numbers
+ * @param arr Array of numbers
+ */
+
+export const mode = (arr: number[]) => {
   if (arr.length === 0) {
     throw new Error('Mode requires an array with at least one element');
   }
@@ -25,5 +30,3 @@ const mode = (arr: number[]) => {
     modes: modesArray,
   };
 };
-
-export default mode;

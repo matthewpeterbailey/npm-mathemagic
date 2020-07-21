@@ -1,4 +1,9 @@
-const sum = (arr: number[]) => {
+/**
+ * Returns the sum of all numbers in an array
+ * @param arr Array of numbers
+ */
+
+export const sum = (arr: number[]) => {
   if (arr.length === 0) {
     throw new Error('sum() requires an array of numbers with at least one element');
   }
@@ -10,5 +15,3 @@ const sum = (arr: number[]) => {
   }
   return sumOfNumbers;
 };
-
-export default sum;

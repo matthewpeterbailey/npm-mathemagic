@@ -20,7 +20,11 @@
     "url": "git+https://github.com/matthewpeterbailey/mathemagic.git"
   },
   "keywords": [
-    "Mathematics"
+    "mathematics",
+    "statistics",
+    "math",
+    "stats",
+    "geometry"
   ],
   "author": "Matthew Bailey <mpb1992@outlook.com>",
   "license": "MIT",
