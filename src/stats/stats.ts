@@ -1,6 +1,18 @@
-import { mean, mode, median, min, max, sum, variance, sd } from '../index';
+import { mean } from './mean';
+import { mode } from './mode';
+import { median } from './median';
+import { min } from '../core/min';
+import { max } from '../core/max';
+import { sum } from '../core/sum';
+import { variance } from './variance';
+import { standardDeviation } from './standardDeviation';
 
-const stats = (arr: number[]) => {
+/**
+ * Returns basic statistics of a given array
+ * @param arr Array of numbers
+ */
+
+export const stats = (arr: number[]) => {
   return {
     mean: mean(arr),
     median: median(arr),
@@ -9,8 +21,6 @@ const stats = (arr: number[]) => {
     max: max(arr),
     sum: sum(arr),
     variance: variance(arr),
-    standardDevation: sd(arr),
+    standardDevation: standardDeviation(arr),
   };
 };
-
-export default stats;

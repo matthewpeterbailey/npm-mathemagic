@@ -20,9 +20,9 @@ export { perpendicular } from './geometry/linesAndVertices/perpendicular';
 export { square } from './geometry/square/square';
 
 // Stats
-export { default as stats } from './stats/stats';
-export { default as mean } from './stats/mean';
-export { default as median } from './stats/median';
-export { default as mode } from './stats/mode';
-export { default as var, default as variance } from './stats/variance';
-export { default as sd, default as standardDeviation } from './stats/standardDeviation';
+export { stats } from './stats/stats';
+export { mean } from './stats/mean';
+export { median } from './stats/median';
+export { mode } from './stats/mode';
+export { variance, variance as var } from './stats/variance';
+export { standardDeviation, standardDeviation as sd } from './stats/standardDeviation';
