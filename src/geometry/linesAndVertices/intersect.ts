@@ -1,6 +1,14 @@
 import { Point } from '../../core/point';
 
-const linesIntersect = (line1Start: Point, line1End: Point, line2Start: Point, line2End: Point) => {
+/**
+ * Returns the point of intersect of 2 lines and determines whether the point lies on the line segments provided
+ * @param line1Start Start point of line 1
+ * @param line1End End point of line 1
+ * @param line2Start Start point of line 2
+ * @param line2End End point of line 2
+ */
+
+export const intersect = (line1Start: Point, line1End: Point, line2Start: Point, line2End: Point) => {
   const result: ResultObject = {
     atPoint: {
       x: NaN,
@@ -53,5 +61,3 @@ interface ResultObject {
   onLine2: boolean;
   intersects: boolean;
 }
-
-export default linesIntersect;

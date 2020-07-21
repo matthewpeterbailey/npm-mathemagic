@@ -1,4 +1,9 @@
-const median = (arr: number[]): number => {
+/**
+ * Returns the median of an array of numbers
+ * @param arr Array of numbers
+ */
+
+export const median = (arr: number[]): number => {
   if (arr.length === 0) {
     throw new Error('Median requires an array with at least one element');
   }
@@ -15,5 +20,3 @@ const median = (arr: number[]): number => {
 
   return result;
 };
-
-export default median;
