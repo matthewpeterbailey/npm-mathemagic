@@ -2,6 +2,7 @@
 export { min } from './core/min';
 export { max } from './core/max';
 export { sum } from './core/sum';
+export { cross } from './core/cross';
 export { Point } from './core/point';
 export * from './core/constants';
 
